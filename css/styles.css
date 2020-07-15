@@ -251,13 +251,11 @@ a:hover .icon {
 
 .backdrop {
     position: fixed;
-    width: 528px;
-    height: 581px;
-    top: 222px;
-    left: 690px;
-    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
-    background-color: var(--primary-white-color);
+    width: 1800px;
+    height: 1024px;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.2);
 }
 
 .is-hidden {
@@ -267,9 +265,14 @@ a:hover .icon {
 }
 
 .form {
-    margin-left: auto;
-    margin-right: auto;
+    width: 528px;
+    height: 581px;
     padding: 40px;
+    top: 222px;
+    left: 690px;
+    background-color: var(--primary-white-color);
+    border-radius: 4px;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
     position: relative;
 }
 

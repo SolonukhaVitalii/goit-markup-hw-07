@@ -1,0 +1,27 @@
+.contacts {
+    margin-left: auto;
+}
+
+.contact {
+    margin-right: 30px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+
+    color: $primary-text-color;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    font-style: normal;
+    transition: color $timing, $timing-function;
+}
+
+.contact:last-child {
+    margin-right: 0;
+}
+
+.contact:hover,
+.contact:focus {
+    color: $accent-color;
+}

@@ -1,0 +1,137 @@
+.footer {
+    color: $primary-white-color;
+    background-color: $background-color-footer;
+}
+
+.page-footer {
+    display: $display;
+    justify-content: $justify-content;
+    align-items: $align-items-base;
+    border-bottom: $border-bottom;
+    margin-left: $margin-left;
+    margin-right: $margin-left;
+}
+
+.logo-footer {
+    display: $display-block;
+    width: $width-logo;
+    margin-bottom: $font-size-modalka;
+}
+
+.lis {
+    list-style: $list-style;
+}
+
+.footer-address {
+    width: $width-footer;
+
+    color: $primary-white-color;
+    font-weight: $font-weight-normal;
+    font-size: $font-size-contact;
+    line-height: $line-height-mesedg;
+    font-style: $font-style;
+}
+
+.footer-contact {
+    width: $width-footer;
+
+    color: $color-footer;
+    font-weight: $font-weight-normal;
+    font-size: $font-size-contact;
+    line-height: $line-height-mesedg;
+    font-style: $font-style;
+}
+
+.inst {
+    display: $display-block;
+    width: $width-c;
+    margin-left: $margin-left-footer;
+    margin-top: $margin-top-footer;
+}
+
+.footer-title {
+    color: $primary-white-color;
+    font-weight: $font-weight-bold;
+    font-size: $font-size-contact;
+    line-height: $line-height-contact;
+    text-transform: $text-transform;
+}
+
+.insts {
+    width: $width-foot;
+}
+
+.list-icons {
+    margin-right: $margin-bottom-mesedg;
+}
+
+.icons {
+    background: $background-f;
+    padding-left: $padding-top-comanda;
+}
+
+.forms {
+    display: $display;
+    width: $width-footer-f;
+    height: $height-footer;
+    margin-left: $padding-top-mesedg;
+}
+
+.forms-mails {
+    display: $display-block;
+}
+
+.forms-input {
+    width: $width-input;
+    height: $height-h;
+    padding: $padding-f;
+    border: $border-footer;
+    box-sizing: $box-sizing;
+    box-shadow: $box-shadow-footer;
+    border-radius: $border-radius-4;
+    background-color:  $background-color-footer;
+}
+
+.mails {
+    margin-bottom: $font-size-modalka;
+    padding-left: $margin;
+}
+
+.submit {
+    margin-top: $margin-top-footer-f;
+}
+
+.buttons {
+    display: $display-fl;
+    border-radius: $border-radius-4;
+    padding: $padding-footer;
+    max-width: $min-width;
+    height: $height-h;
+    margin-left: $padding-top-comanda;
+
+    color: $primary-white-color;
+    border: $border;
+    background-color: $accent-color;
+    text-align: $aligin-items;
+    align-items: $aligin-items;
+    cursor: $cursor;
+}
+
+.icon-send {
+    fill: $primary-white-color;
+    margin-left: $margin-bottom-mesedg;
+}
+
+.avtor {
+    display: $display-block;
+    width: 310px;
+    padding-top: $width-modalka;
+    padding-bottom: $padding-bottom-f;
+    margin: $margin-left;
+    
+    
+    color: $color-f;
+    font-size: $font-size-footer;
+    line-height: $line-height-footer;
+    text-align: $aligin-items;
+}

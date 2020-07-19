@@ -1,0 +1,52 @@
+.container-mesedg {
+    display: $display;
+    margin-left: $margin-left;
+    margin-right: $margin-left;
+    text-align: $aligin-items;
+    justify-content: $justify-content;
+    padding-top: $padding-top-mesedg;
+    padding-bottom: $padding-top-mesedg;
+}
+
+.mesedg {
+    width: $width-mesedg;
+    margin-right: $margin-left-item;
+    margin-left: $margin;
+    justify-content: $aligin-items;
+    align-items: $aligin-items;
+}
+
+.mesedg:last-child {
+    margin-right: $margin;
+}
+
+.icon-mesedg {
+    width: $width-mesedg-c;
+    height: $height-modalka;
+    background: $background-m;
+    border-radius: $border-radius-4;
+    padding-top: $margin-bottom-logo;
+    padding-bottom: $margin-bottom-logo;
+}
+
+.section-title {
+    width: $width-mesedg-c;
+    text-align: $text-align-m;
+    margin-bottom: $margin-bottom-mesedg;
+    
+    color: $title-text-color;
+    font-weight: $font-weight-bold;
+    font-size: $font-size-contact;
+    line-height: $line-height-contact;
+    text-transform: $text-transform;
+}
+
+.section-text {
+    width: $width-mesedg-c;
+    text-align: $text-align-m;
+
+    color: $title-text-color;
+    font-weight: $font-weight-normal;
+    font-size: $font-size-contact;
+    line-height: $line-height-mesedg;
+}

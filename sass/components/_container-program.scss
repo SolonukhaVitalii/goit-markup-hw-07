@@ -1,0 +1,54 @@
+.container-robota {
+    margin-left: $margin-left;
+    margin-right: $margin-left;
+    text-align: $text-align;
+    padding-top: $padding-top-mesedg;
+    padding-bottom: $padding-top-mesedg;
+}
+
+.section-titles {
+    margin-bottom: $height-h;
+
+    color: $title-text-color;
+    font-weight: $font-weight-bold;
+    font-size: $font-size-program;
+    line-height: $line-height-program;
+    text-align: $text-align;
+}
+
+.program {
+    width: $width-program;
+    margin-right: $margin-left-item;
+    margin-left: $margin;
+    position: $position-r;
+}  
+
+.foto-program {
+    width: $widt-program;
+    height: $height-program;
+}
+
+.program-cod {
+    position: $position-a;
+    top: $height-program;
+    left: $margin;
+    width: $widt-program;
+    height: $height-p;
+    background-color: $background-color-program;
+    transform: $transform-p;
+}
+
+.section-cod {
+    display: $display;
+    margin-top: $margin-top-program;
+    margin-bottom: $margin-top-program;
+
+    color: $primary-white-color;
+    font-weight: $font-weight-bold;
+    font-size: $font-size-contact;
+    line-height: $line-height-label;
+    text-align: $text-align;
+    text-transform: $text-transform;
+    justify-content: $text-align;
+    align-items: $text-align;
+}

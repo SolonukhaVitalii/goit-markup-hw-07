@@ -1,0 +1,76 @@
+.container-comanda {
+    margin-left: $margin-left;
+    margin-right: $margin-left;
+    text-align: $text-align;
+    padding-top: $padding-top-mesedg;
+    padding-bottom: $padding-top-mesedg;
+}
+
+.comanda {
+    width: $width-comanda;
+}
+
+.fotos {
+    width: $width-mesedg;
+    margin-right: $margin-left-item;
+    margin-left: $margin;
+    box-shadow: $box-shadow;
+}
+
+.fotos:last-child {
+    margin-right: $margin;
+}
+
+.foto-name {
+    width: $width-mesedg-c;
+    height: $height-comanda;
+    margin-bottom: $margin-left-item;
+}
+
+.section-name {
+    margin-bottom: $margin-bottom-mesedg;
+    margin-right: $margin-left;
+    margin-left: $margin-left;
+    color: $title-text-color;
+    font-weight: $font-weight-medium;
+    font-size: $line-height-label;
+    line-height: $line-height-logo;
+    text-align: $text-align;
+}
+
+.section-tex {
+    margin-bottom: $line-height-label;
+    margin-left: $margin-left;
+    margin-right: $margin-left;
+
+    color: $primary-text-color;
+    font-weight: $font-weight-normal;
+    font-size: $font-size-contact;
+    line-height: $line-height-mesedg;
+    text-align: $text-align;
+}
+
+.list-name {
+    width: $width-c;
+    margin-bottom: $line-height-mod;
+    margin-left: $top-contact;
+}
+
+.social-link {
+    display: $display-fl;
+    width: $font-size-hero;
+    height: $font-size-hero;
+    border-radius: $border-radius-close;
+    background-color: $primary-white-color;
+    align-items: $aligin-items;
+    padding-top: $padding-top-comanda;
+    transition: background-color $timing $timing-function;
+}
+
+.social-link:hover {
+    background-color: $accent-color;
+}
+
+.icon {
+    fill: $primary-text-color;
+}

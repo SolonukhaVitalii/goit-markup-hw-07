@@ -886,6 +886,7 @@ a:hover .icon {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
 }
+
 .flex-container {
     display: flex;
     flex-wrap: wrap;

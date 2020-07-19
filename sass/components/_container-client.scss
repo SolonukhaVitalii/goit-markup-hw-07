@@ -1,0 +1,40 @@
+.container-client {
+    margin-left: $margin-left;
+    margin-right: $margin-left;
+    text-align: $aligin-items;
+    padding-top: $padding-top-mesedg;
+    padding-bottom: $padding-top-mesedg;
+}
+
+.clients {
+    display: $display;
+    margin-left: $margin-left;
+    margin-right: $margin-left;
+}
+
+.client {
+    width: $width-client;
+    margin-right: $margin-left-item;
+    margin-left: $margin;
+}
+
+.box-icon {
+    display: $display;
+    height: $height-client;
+    border: $border-client;
+    border-radius: $border-radius;
+    align-items: $text-align;
+    padding-left: $padding-lef-client;
+    transition: border $timing $timing-function;
+
+
+}
+
+.box-icon:hover {
+    border: $border-c;
+    border-radius: $border-radius;
+}
+
+.icon-logo {
+    fill: $primary-text-color;
+}

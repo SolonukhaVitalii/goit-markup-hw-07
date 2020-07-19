@@ -1,0 +1,52 @@
+.section-hero {
+    max-width: $max-width;
+    height: $height-hero;
+    display: $display;
+    margin-left: $margin-left;
+    margin-right: $margin-right;
+    outline: $outline;
+    background-color: $link-color;
+    background-image: $background-image, url("../images/Header.jpg");
+    background-repeat: $background-repeat;
+    background-position: $background-position;
+    background-size: $background-size;   
+}
+
+.container-hero {
+    margin: $margin-left;
+    max-width: $max-width-hero;
+    text-align: $text-align;
+}
+
+.hero-title {
+    margin-bottom: $margin-left;
+    color: $primary-white-color;
+    font-weight: $font-weight-black;
+    font-size: $font-size-hero;
+    line-height: $line-height-hero;
+    text-align: $text-align;
+    letter-spacing: $letter-spacing-hero;
+    text-transform: $text-transform;   
+}
+
+.button {
+    display: $display-in;
+    min-width: $min-width;
+    height: $height-h;
+
+    color: $primary-white-color;
+    border: $border;
+    border-radius: $border-radius-4;
+    background-color: $accent-color;
+    text-align: $text-align;
+}
+
+.button.primary {
+    color: $primary-white-color;
+    background: $accent-color;
+}
+
+.button.secondary {
+    color: $accent-color;
+    background-color: $primary-white-color;
+}

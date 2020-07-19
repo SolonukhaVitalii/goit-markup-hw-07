@@ -1,0 +1,49 @@
+* {
+    margin: $margin;
+    padding: $padding;
+    box-sizing: $box-sizing;
+}
+
+body {
+    background-color: $primary-white-color;
+    color: $primary-text-color;
+    font-family: $font-family;
+    letter-spacing: $letter-spacing;
+}
+
+.list {
+    display: $display;
+    padding-top: $padding-top;
+    padding-bottom: $padding-bottom;
+    padding-left: $padding-left;
+    padding-right: $padding-right;
+    list-style: $list-style;
+}
+
+.list-item {
+    box-sizing: $box-sizing;
+    margin-left: $margin-left-item;
+}
+
+.container {
+    width: $width;
+    padding-left: $padding-left-container;
+    padding-right: $padding-right-container;
+}
+
+a {
+    text-decoration: $text-decoration;
+    transition: color $timing, $timing-function, fill $timing, $timing-function;
+}
+
+a:hover {
+    color: $accent-color;
+}
+
+a:hover svg {
+    fill: $accent-color;
+}
+
+a:hover .icon {
+    fill: $primary-white-color;
+}

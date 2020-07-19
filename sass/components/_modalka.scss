@@ -1,0 +1,221 @@
+
+.backdrop {
+    position: $position-f;
+    width: $width-m;
+    height: $height-m;
+    left: $left-contact;
+    top: $left-contact;
+    background: $background-m;
+}
+
+.is-hidden {
+    visibility: $visibility;
+    opacity: $opacity-a;
+    pointer-events: $pointer-events;
+}
+
+.form {
+    width: $width-form;
+    height: $height-form;
+    padding: $padding-form;
+    top: $top-form;
+    left: $left-form;
+    background-color: $primary-white-color;
+    border-radius: $border-radius-4;
+    box-shadow: $box-shadow;
+    position: $position-r;
+}
+
+.close {
+    position: $position-a;
+    width: $margin-left;
+    height: $margin-left;
+    top: $top-close;
+    right: $top-close;
+    background-color: $primary-white-color;
+    border-radius: $border-radius-close;
+    border: $border-close;
+    transform: $transform;
+    cursor: $cursor;
+}
+
+.icon-close {
+    position: $position-a;
+    top: $padding-top;
+    left: $margin-right-tel;
+    transform: $transform-close;
+}
+
+.close:focus .icon-close {
+    fill: $accent-color;
+}
+
+.form-title {
+    margin-bottom: $margin-left;
+    font-style: $font-style;
+    font-weight: $font-weight-bold;
+    font-size: $font-size-modalka;
+    line-height: $line-height-form;
+    color: $title-text-color;
+}
+
+.form-field {
+    margin-bottom: $margin-bottom-modalka;
+    position: $position-r;
+}
+
+.form-label {
+    position: $position-a;
+    top: $top-label;
+    left: $left-label;
+    font-size: $font-size-contact;
+    line-height: $line-height-label;
+    letter-spacing: $letter-spacing-modalka;
+    color: $primary-text-color;
+    transform: $transform-modalka;
+}
+
+.form-input {
+    width: $width-contact;
+    padding: $padding-modalka;
+    border: $border-close;
+    box-sizing: $box-sizing;
+    border-radius: $border-radius-4;
+    cursor: $cursor;
+}
+
+.form-input:focus + .form-label,
+.form-input:not(:placeholder-shown) + .form-label {
+    color: $accent-color;
+    transform: $transform-mod;
+    margin-left: $margin-left-modalka;
+    transition-duration: $timing;
+}
+
+.form-input:placeholder-shown {
+    background-color: $primary-white-color;
+}
+
+.form-label:focus-within .form-input {
+    outline: $list-style;
+    border-color: $accent-color;
+}
+
+.form-icon {
+    position: $position-a;
+    top: $top-label;
+    left: $left-modalka;
+    display: $display-in;
+    width: $width-modalka;
+    height: $width-modalka;
+    transform: $transform-modalka;
+    background-color: $primary-white-color;
+}
+
+.form-input:focus ~ .form-icon {
+    fill: $accent-color;
+}
+
+.field-textarea {
+    position: $position-r;
+    margin-bottom: $font-size-modalka;
+}
+
+.form-textarea {
+    position: $position-a;
+    top: $top-modalka;
+    left: $line-height-label;
+    font-size: $font-size-contact;
+    line-height: $line-height-label;
+    letter-spacing: $letter-spacing-modalka;
+    color: $primary-text-color;
+    transform: $transform-modalka;
+    transition: transform $timing $timing-function;
+}
+
+.comment {
+    width: $width-modalka;
+    height: $height-modalka;
+    padding: $padding-m;
+    border: $border-close;
+    box-sizing: $box-sizing;
+    border-radius: $border-radius-4;
+    cursor: $cursor;
+}
+
+.comment:focus + .form-textarea,
+.comment:not(:placeholder-shown) + .form-textarea {
+    color: $accent-color;
+    transform: $transform-m;
+    margin-left: $margin;
+    transition-duration: $timing ;
+}
+
+.comment:placeholder-shown {
+    background-color: $primary-white-color;
+}
+
+.form-textarea:focus-within .comment {
+    border-color: $accent-color;
+    outline: $accent-color;
+}
+
+.textarea {
+    resize: $accent-color;
+}
+
+.label {
+    display: $display;
+}
+
+.checkbox-box {
+    position: $position-r;
+}
+
+.checkbox-text {
+    font-size: $font-size-contact;
+    line-height: $line-height-mod;
+    margin-left: $top-close;
+    margin-left: $margin-bottom-logo;
+}
+
+.checkbox {
+    position: $position-a;
+    width: $width-m;
+    height: $height-m;
+    margin: $margin-m;
+    border: $margin;
+    padding: $margin;
+    clip: $clip;
+    overflow: $visibility;
+}
+
+.icon-box {
+    position: $position-a;
+    display: $display-in;
+    width: $line-height-label;
+    height: $padding-left-container;
+    top: $margin-right-tel;
+    left: $margin;
+    border: $border-radius-2 solid $link-color;
+    border-radius: $border-radius-2;
+    align-items: $aligin-items;
+}
+
+.checkbox:checked + .icon-box {
+    border-color: $accent-color;
+    background-color: $accent-color;
+    background-image: url(../images/iconcheck.svg);
+    background-size: $background-size-m;
+    background-origin: $box-sizing;
+}
+
+.doc {
+    color: $accent-color;
+    text-decoration-line: $text-decoration-line;
+}
+.form-button {
+    margin-left: $margin-left-m;
+    margin-top: $margin-left;
+    cursor: $cursor;
+}

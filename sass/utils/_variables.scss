@@ -4,154 +4,14 @@ $accent-color: #2196F3;
 $primary-white-color: #ffffff;
 $link-color: #000000;
 $background-m: #F5F4FA;
-$timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-$timing: 250ms;
-$text-decoration: none;
-$cursor: pointer;
-
-$width-mesedg: calc((100% - 30px * 3) / 4);
-$width-program: calc((100% - 30px * 2) / 3);
-
-$width-m: 1800px;
-$max-width: 1600px;
-$width: 1200px;
-$height-m: 1024px;
-$max-width-hero: 696px;
-$left-form: 690px;
-$height-hero: 600px;
-$width-footer-f: 570px;
-$width-form: 528px;
-$height-form: 581px;
-$width-modalka: 448px;
-$widt-program: 370px;
-$width-input: 358px;
-$height-program: 294px;
-$width-mesedg-c: 270px;
-$height-comanda: 260px;
-$width-comanda: 264px;
-$width-footer: 231px;
-$top-form: 222px;
-$min-width: 200px;
-$width-c: 206px;
-$width-client: 170px;
-$width-logo: 153px;
-$width-foot: 145px;
-$height-modalka: 120px;
-$height-client: 90px;
-$height-footer: 86px;
-$height-p: 70px;
-$margin-left-footer: 69px;
-$margin-top-footer: 72px;
-$padding-lef-client: 60px;
-$height-h: 50px;
-$left-label: 42px;
-$padding-form: 40px;
-$margin-top-footer-f: 35px;
-$top-contact: 32px;
-$padding-bottom-f: 21px;
-$width-modalka: 18px;
-$left-modalka: 16px;
-$top-close: 8px;
-$height-contact: 4px;
-$width-m: 1px;
-$height-m: 1px;
-$margin-m: -1px;
-
-$width-contact: 100%;
-$top-label: 50%;
-$top-modalka: 20%;
-$left-contact: 0;
-
-$margin: 0;
-$margin-left: auto;
-$margin-right: auto;
-$margin-right-contact: 50px;
-$margin-right-last: 0;
-$margin-right-tel: 5px;
-$margin-left-item: 30px;
-$margin-right-logo: 85px;
-$margin-bottom-logo: 25px;
-$margin-top-contact: 32px;
-$margin-bottom-contact: 32px;
-$margin-top-program: 27px;
-$margin-bottom-modalka: 28px;
-$margin-bottom-mesedg: 10px;
-$margin-left-modalka: -30px;
-$margin-left-m: 125px;
-
-
-$padding: 0;
-$padding-top: 0;
-$padding-bottom: 0;
-$padding-left: 0;
-$padding-right: 0;
-$padding-left-container: 15px;
-$padding-right-container: 15px;
-$padding-top-comanda: 12px;
-$padding-modalka: 12px 18px;
-$padding-m: 12px 16px;
-$padding-f: 15px 16px;
-$padding-footer: 10px 32px;
-$padding-top-mesedg: 94px;
-
-
-
-$border-radius-2: 2px;
-$border-radius-4: 4px;
-$border-radius-close: 50%;
-$border-radius: 5%;
-$font-family: Roboto;
-$font-family-logo: Raleway;
-$font-weight-black: 900;
-$font-weight-bold: 700;
-$font-weight-medium: 500;
-$font-weight-normal: 400;
-$font-size-hero: 44px;
-$font-size-logo: 26px;
-$font-size-modalka: 20px;
-$font-size-footer: 12px;
-$font-size-contact: 14px;
-$font-size-program: 36px;
-
-$letter-spacing-hero: 0.06em;
-$letter-spacing: 0.03em;
-$letter-spacing-contact: 0.02em;
-$letter-spacing-modalka: 0.01em;
-
-$line-height-footer: 2;
-$line-height-hero: 1.36;
-$line-height-logo: 1.19;
-$line-height-program: 1.17;
-$line-height-contact: 1.14;
-$line-height-mesedg: 1.71;
-$line-height-label: 16px;
-$line-height-form: 23px;
-$line-height-mod: 24px;
-
-$box-sizing: border-box;
-$font-style: normal;
-$display: flex;
-$display-block: block;
-$display-in: inline-block;
-$display-fl: inline-flex;
-$aligin-items: center;
-$align-items-base: baseline;
-$text-align: center;
-$text-align-m: left;
-$text-transform: uppercase;
-$text-decoration-line: underline;
-$justify-content: space-between;
-$vertical-align: middle;
-$position-r: relative;
-$position-a: absolute;
-$position-f: fixed;
-$content: "";
-$opacity: 0;
-$opacity-a: 1;
-$visibility: hidden;
-$pointer-events: visible;
-$list-style: none;
-
+$background-m: rgba(0, 0, 0, 0.2);
+$background-f: rgba(255, 255, 255, 0.1);
+$color-f: rgba(255, 255, 255, 0.4);
+$color-footer: rgba(255, 255, 255, 0.6);
+$background-color-program: rgba(47, 48, 58, 0.8);
+$background-color-footer:  #2F303A;
+$box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+$box-shadow-footer: 0px 4px 4px rgba(0, 0, 0, 0.15);
 $outline: 1px solid black;
 $border: 1px solid $accent-color;
 $border-c: 0.1px solid $accent-color;
@@ -159,8 +19,21 @@ $border-client: 0.1px solid #AFB1B8;
 $border-close: 1px solid rgba(33, 33, 33, 0.2);
 $border-footer: 1px solid rgba(168, 162, 162, 0.3);
 $border-bottom: 1px solid #ccc;
-$clip: rect(0 0 0 0 );
 
+$font-family: Roboto;
+$font-family-logo: Raleway;
+$font-weight-black: 900;
+$font-weight-bold: 700;
+$font-weight-medium: 500;
+$font-weight-normal: 400;
+
+$letter-spacing-hero: 0.06em;
+$letter-spacing-all: 0.03em;
+$letter-spacing-contact: 0.02em;
+$letter-spacing-modalka: 0.01em;
+
+$timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+$timing: 250ms;
 $transform: translateX(-10%);
 $transform-close: translateY(30%);
 $transform-modalka: translateY(-50%);
@@ -168,23 +41,42 @@ $transform-mod: translateY(-40px);
 $transform-m: translateY(-45px);
 $transform-p: translateY(-100%);
 
-$color-footer: rgba(255, 255, 255, 0.6);
-$background-color-program: rgba(47, 48, 58, 0.8);
-$background-color-footer:  #2F303A;
-$background-image: linear-gradient(
-        to right,
-        rgba(47, 48, 58, 0.8),
-        rgba(47, 48, 58, 0.8)
-        );
-$background-repeat: no-repeat;
-$background-position: center;
-$background-size: cover;
-$background-size-m: contain;
-$background-m: rgba(0, 0, 0, 0.2);
-$background-f: rgba(255, 255, 255, 0.1);
-$color-f: rgba(255, 255, 255, 0.4);
-$box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
-$box-shadow-footer: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+$width-mesedg: calc((100% - 30px * 3) / 4);
+$width-program: calc((100% - 30px * 2) / 3);
+
+
+$width-contact: 100%;
+$top-label: 50%;
+$top-modalka: 20%;
+
+
+$line-height-footer: 2;
+$line-height-hero: 1.36;
+$line-height-logo: 1.19;
+$line-height-program: 1.17;
+$line-height-contact: 1.14;
+$line-height-mesedg: 1.71;
+
+
+
+$border-radius-2: 2px;
+$border-radius-4: 4px;
+$border-radius-close: 50%;
+$border-radius: 5%;
+
+
+
+$dis: flex;
+$box: border-box;
+$cen: center;
+$bas: baseline;
+$d-bl: block;
+$pos-r: relative;
+$pos-a: absolute;
+
+
+
 
 
 

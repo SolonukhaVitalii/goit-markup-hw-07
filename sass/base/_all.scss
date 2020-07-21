@@ -1,38 +1,38 @@
 * {
-    margin: $margin;
-    padding: $padding;
-    box-sizing: $box-sizing;
+    margin: 0;
+    padding: 0;
+    box-sizing: $box;
 }
 
 body {
     background-color: $primary-white-color;
     color: $primary-text-color;
     font-family: $font-family;
-    letter-spacing: $letter-spacing;
+    letter-spacing: $letter-spacing-all;
 }
 
 .list {
-    display: $display;
-    padding-top: $padding-top;
-    padding-bottom: $padding-bottom;
-    padding-left: $padding-left;
-    padding-right: $padding-right;
-    list-style: $list-style;
+    display: $dis;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    list-style: none;
 }
 
 .list-item {
-    box-sizing: $box-sizing;
-    margin-left: $margin-left-item;
+    box-sizing: $box;
+    margin-left: 30px;
 }
 
 .container {
-    width: $width;
-    padding-left: $padding-left-container;
-    padding-right: $padding-right-container;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 a {
-    text-decoration: $text-decoration;
+    text-decoration: none;
     transition: color $timing, $timing-function, fill $timing, $timing-function;
 }
 

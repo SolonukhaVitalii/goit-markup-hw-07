@@ -1,54 +1,54 @@
 .container-robota {
-    margin-left: $margin-left;
-    margin-right: $margin-left;
-    text-align: $text-align;
-    padding-top: $padding-top-mesedg;
-    padding-bottom: $padding-top-mesedg;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:$cen;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .section-titles {
-    margin-bottom: $height-h;
+    margin-bottom: 50px;
 
     color: $title-text-color;
-    font-weight: $font-weight-bold;
-    font-size: $font-size-program;
-    line-height: $line-height-program;
-    text-align: $text-align;
+    font-weight: $bold;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: $cen;
 }
 
 .program {
-    width: $width-program;
-    margin-right: $margin-left-item;
-    margin-left: $margin;
-    position: $position-r;
+    width: calc((100% - 30px * 2) / 3);
+    margin-right: 30px;
+    margin-left: 0;
+    position: $pos-r;
 }  
 
 .foto-program {
-    width: $widt-program;
-    height: $height-program;
+    width: 370px;
+    height: 294px;
 }
 
 .program-cod {
-    position: $position-a;
-    top: $height-program;
-    left: $margin;
-    width: $widt-program;
-    height: $height-p;
+    position: $pos-a;
+    top: 294px;
+    left: 0;
+    width: 370px;
+    height: 70px;
     background-color: $background-color-program;
-    transform: $transform-p;
+    transform: $transform-program;
 }
 
 .section-cod {
-    display: $display;
-    margin-top: $margin-top-program;
-    margin-bottom: $margin-top-program;
+    display: $dis;
+    margin-top: 27px;
+    margin-bottom: 27px;
 
     color: $primary-white-color;
-    font-weight: $font-weight-bold;
-    font-size: $font-size-contact;
-    line-height: $line-height-label;
-    text-align: $text-align;
-    text-transform: $text-transform;
-    justify-content: $text-align;
-    align-items: $text-align;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: $cen;
+    text-transform: uppercase;
+    justify-content: $cen;
+    align-items: $cen;
 }

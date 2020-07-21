@@ -1,38 +1,36 @@
 .container-client {
-    margin-left: $margin-left;
-    margin-right: $margin-left;
-    text-align: $aligin-items;
-    padding-top: $padding-top-mesedg;
-    padding-bottom: $padding-top-mesedg;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: $cen;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .clients {
-    display: $display;
-    margin-left: $margin-left;
-    margin-right: $margin-left;
+    display: $dis;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .client {
-    width: $width-client;
-    margin-right: $margin-left-item;
-    margin-left: $margin;
+    width: 170px;
+    margin-right: 30px;
+    margin-left: 0;
 }
 
 .box-icon {
-    display: $display;
-    height: $height-client;
+    display: $dis;
+    height: 90px;
     border: $border-client;
-    border-radius: $border-radius;
-    align-items: $text-align;
-    padding-left: $padding-lef-client;
-    transition: border $timing $timing-function;
-
-
+    border-radius: $br-5;
+    align-items: center;
+    padding-left: 60px;
+    transition: border $timing, $timing-function;
 }
 
 .box-icon:hover {
-    border: $border-c;
-    border-radius: $border-radius;
+    border: $border-cli;
+    border-radius: $br-5;
 }
 
 .icon-logo {

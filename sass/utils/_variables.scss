@@ -3,34 +3,45 @@ $title-text-color: #212121;
 $accent-color: #2196F3;
 $primary-white-color: #ffffff;
 $link-color: #000000;
-$background-m: #F5F4FA;
-$background-m: rgba(0, 0, 0, 0.2);
-$background-f: rgba(255, 255, 255, 0.1);
-$color-f: rgba(255, 255, 255, 0.4);
+$bg-backdrop: rgba(0, 0, 0, 0.2);
+$bg-mesedg: #F5F4FA;
+$background-color-footer: #2F303A;
+$background-footer: rgba(255, 255, 255, 0.1);
+$color-foot: rgba(255, 255, 255, 0.4);
 $color-footer: rgba(255, 255, 255, 0.6);
 $background-color-program: rgba(47, 48, 58, 0.8);
-$background-color-footer:  #2F303A;
-$box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+$background-color-port: rgba(33, 150, 243, 0.9);
+$box-shadow-m: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
 $box-shadow-footer: 0px 4px 4px rgba(0, 0, 0, 0.15);
+$box-shadow-p: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
+
 $outline: 1px solid black;
 $border: 1px solid $accent-color;
-$border-c: 0.1px solid $accent-color;
-$border-client: 0.1px solid #AFB1B8;
 $border-close: 1px solid rgba(33, 33, 33, 0.2);
+$border-m: 2px solid $accent-color;
+$border-cli: 0.1px solid $accent-color;
+$border-client: 0.1px solid #AFB1B8;
 $border-footer: 1px solid rgba(168, 162, 162, 0.3);
+$border-foot: 1px solid rgba(255, 255, 255, 0.3);
 $border-bottom: 1px solid #ccc;
+$border-port: 1px solid #EEEEEE;
 
 $font-family: Roboto;
 $font-family-logo: Raleway;
-$font-weight-black: 900;
-$font-weight-bold: 700;
-$font-weight-medium: 500;
-$font-weight-normal: 400;
+$black: 900;
+$bold: 700;
+$medium: 500;
+$normal: 400;
 
-$letter-spacing-hero: 0.06em;
-$letter-spacing-all: 0.03em;
-$letter-spacing-contact: 0.02em;
-$letter-spacing-modalka: 0.01em;
+$ls-6: 0.06em;
+$ls-3: 0.03em;
+$ls-2: 0.02em;
+$ls-1: 0.01em;
+
+$br-2: 2px;
+$br-4: 4px;
+$br-close: 50%;
+$br-5: 5%;
 
 $timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 $timing: 250ms;
@@ -39,32 +50,9 @@ $transform-close: translateY(30%);
 $transform-modalka: translateY(-50%);
 $transform-mod: translateY(-40px);
 $transform-m: translateY(-45px);
-$transform-p: translateY(-100%);
-
-
-$width-mesedg: calc((100% - 30px * 3) / 4);
-$width-program: calc((100% - 30px * 2) / 3);
-
-
-$width-contact: 100%;
-$top-label: 50%;
-$top-modalka: 20%;
-
-
-$line-height-footer: 2;
-$line-height-hero: 1.36;
-$line-height-logo: 1.19;
-$line-height-program: 1.17;
-$line-height-contact: 1.14;
-$line-height-mesedg: 1.71;
-
-
-
-$border-radius-2: 2px;
-$border-radius-4: 4px;
-$border-radius-close: 50%;
-$border-radius: 5%;
-
+$transform-program: translateY(-100%);
+$transform-porfolio: translateY(100%);
+$transform-port: translateY(0);
 
 
 $dis: flex;

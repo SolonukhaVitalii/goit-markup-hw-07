@@ -107,7 +107,7 @@ a:hover .icon {
   color: #000000;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.14px;
   letter-spacing: 0.02em;
   -webkit-transition: color 250ms, cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms, cubic-bezier(0.4, 0, 0.2, 1);
@@ -158,7 +158,7 @@ a:hover .icon {
 }
 
 .contact {
-  margin-right: auto;
+  margin-right: 30px;
   margin-top: 32px;
   margin-bottom: 32px;
   color: #212121;
@@ -212,7 +212,7 @@ a:hover .icon {
 }
 
 .hero-title {
-  margin-bottom: auto;
+  margin-bottom: 30px;
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
@@ -245,8 +245,8 @@ a:hover .icon {
 
 .backdrop {
   position: fixed;
-  width: 1px;
-  height: 1px;
+  width: 1800px;
+  height: 1024px;
   left: 0;
   top: 0;
   background: rgba(0, 0, 0, 0.2);
@@ -254,7 +254,7 @@ a:hover .icon {
 
 .is-hidden {
   visibility: hidden;
-  opacity: 1;
+  opacity: 0;
   pointer-events: visible;
 }
 
@@ -273,8 +273,8 @@ a:hover .icon {
 
 .close {
   position: absolute;
-  width: auto;
-  height: auto;
+  width: 30px;
+  height: 30px;
   top: 8px;
   right: 8px;
   background-color: #ffffff;
@@ -298,7 +298,7 @@ a:hover .icon {
 }
 
 .form-title {
-  margin-bottom: auto;
+  margin-bottom: 30px;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -383,14 +383,14 @@ a:hover .icon {
   color: #757575;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms;
+  transition: cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms;
+  transition: transform 250ms, cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms, cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms;
 }
 
 .comment {
-  width: 18px;
+  width: 448px;
   height: 120px;
   padding: 12px 16px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -402,7 +402,7 @@ a:hover .icon {
 
 .comment:focus + .form-textarea,
 .comment:not(:placeholder-shown) + .form-textarea {
-  color: #2196F3;
+  color: var(--accent-color);
   -webkit-transform: translateY(-45px);
           transform: translateY(-45px);
   margin-left: 0;
@@ -416,11 +416,11 @@ a:hover .icon {
 
 .form-textarea:focus-within .comment {
   border-color: #2196F3;
-  outline: #2196F3;
+  outline: none;
 }
 
 .textarea {
-  resize: #2196F3;
+  resize: none;
 }
 
 .label {
@@ -458,7 +458,7 @@ a:hover .icon {
   height: 15px;
   top: 5px;
   left: 0;
-  border: 2px solid #000000;
+  border: 2px solid #2196F3;
   border-radius: 2px;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -481,7 +481,7 @@ a:hover .icon {
 
 .form-button {
   margin-left: 125px;
-  margin-top: auto;
+  margin-top: 30px;
   cursor: pointer;
 }
 
@@ -518,7 +518,7 @@ a:hover .icon {
 .icon-mesedg {
   width: 270px;
   height: 120px;
-  background: rgba(0, 0, 0, 0.2);
+  background: #F5F4FA;
   border-radius: 4px;
   padding-top: 25px;
   padding-bottom: 25px;
@@ -538,7 +538,7 @@ a:hover .icon {
 .section-text {
   width: 270px;
   text-align: left;
-  color: #212121;
+  color: #757575;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -719,8 +719,8 @@ a:hover .icon {
       -ms-flex-align: center;
           align-items: center;
   padding-left: 60px;
-  -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: border 250ms, cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms, cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .box-icon:hover {
@@ -825,7 +825,7 @@ a:hover .icon {
   width: 358px;
   height: 50px;
   padding: 15px 16px;
-  border: 1px solid rgba(168, 162, 162, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.3);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -906,21 +906,21 @@ a:hover .icon {
 .work-button {
   min-width: 128px;
   height: 38px;
-  color: var(--title-text-color);
+  color: #212121;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   border: none;
   cursor: pointer;
-  -webkit-transition: background-color var(--timing), var(--timing-function), color var(--timing), var(--timing-function);
-  transition: background-color var(--timing), var(--timing-function), color var(--timing), var(--timing-function);
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .work-button:hover,
 .work-button:focus {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
+  color: #ffffff;
+  background-color: #2196F3;
 }
 
 .flex-container {
@@ -958,10 +958,10 @@ a:hover .icon {
   background-color: rgba(33, 150, 243, 0.9);
   -webkit-transform: translateY(100%);
           transform: translateY(100%);
-  -webkit-transition: -webkit-transform 250ms var(--timing-function);
-  transition: -webkit-transform 250ms var(--timing-function);
-  transition: transform 250ms var(--timing-function);
-  transition: transform 250ms var(--timing-function), -webkit-transform 250ms var(--timing-function);
+  -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   opacity: 0;
 }
 
@@ -980,10 +980,10 @@ a:hover .icon {
   height: 100%;
   -webkit-transform: translateY(100%);
           transform: translateY(100%);
-  -webkit-transition: -webkit-transform 250ms var(--timing-function);
-  transition: -webkit-transform 250ms var(--timing-function);
-  transition: transform 250ms var(--timing-function);
-  transition: transform 250ms var(--timing-function), -webkit-transform 250ms var(--timing-function);
+  -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   opacity: 0;
 }
 
@@ -1001,7 +1001,7 @@ a:hover .icon {
   margin-bottom: 4px;
   margin-right: 24px;
   margin-left: 24px;
-  color: var(--title-text-color);
+  color: #212121;
   font-weight: 700;
   font-size: 18px;
   line-height: 2.0;
@@ -1015,7 +1015,7 @@ a:hover .icon {
   margin-bottom: 20px;
   margin-right: 24px;
   margin-left: 24px;
-  color: var(--primary-text-color);
+  color: #757575;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.187;
@@ -1028,7 +1028,7 @@ a:hover .icon {
   margin-bottom: auto;
   margin-right: 24px;
   margin-left: 24px;
-  color: var(--primary-white-color);
+  color: #ffffff;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.56;

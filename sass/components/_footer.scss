@@ -4,134 +4,133 @@
 }
 
 .page-footer {
-    display: $display;
-    justify-content: $justify-content;
-    align-items: $align-items-base;
+    display: $dis;
+    justify-content: space-between;
+    align-items: baseline;
     border-bottom: $border-bottom;
-    margin-left: $margin-left;
-    margin-right: $margin-left;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .logo-footer {
-    display: $display-block;
-    width: $width-logo;
-    margin-bottom: $font-size-modalka;
+    display: $d-bl;
+    width: 153px;
+    margin-bottom: 20px;
 }
 
 .lis {
-    list-style: $list-style;
+    list-style: none;
 }
 
 .footer-address {
-    width: $width-footer;
-
+    width: 231px;
     color: $primary-white-color;
-    font-weight: $font-weight-normal;
-    font-size: $font-size-contact;
-    line-height: $line-height-mesedg;
-    font-style: $font-style;
+    font-weight: $normal;
+    font-size: 14px;
+    line-height: 1.71;
+    font-style: normal;
 }
 
 .footer-contact {
-    width: $width-footer;
-
+    width: 231px;
     color: $color-footer;
-    font-weight: $font-weight-normal;
-    font-size: $font-size-contact;
-    line-height: $line-height-mesedg;
-    font-style: $font-style;
+    font-weight: $normal;
+    font-size: 14px;
+    line-height: 1.71;
+    font-style: normal;
 }
 
 .inst {
-    display: $display-block;
-    width: $width-c;
-    margin-left: $margin-left-footer;
-    margin-top: $margin-top-footer;
+    display: $d-bl;
+    width: 206px;
+    margin-left: 69px;
+    margin-top: 72px;
 }
 
 .footer-title {
     color: $primary-white-color;
-    font-weight: $font-weight-bold;
-    font-size: $font-size-contact;
-    line-height: $line-height-contact;
-    text-transform: $text-transform;
+    font-weight: $bold;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
 }
 
 .insts {
-    width: $width-foot;
+    width: 145px;
 }
 
 .list-icons {
-    margin-right: $margin-bottom-mesedg;
+    margin-right: 10px;
 }
 
 .icons {
-    background: $background-f;
-    padding-left: $padding-top-comanda;
+    background: $background-footer;
+    padding-left: 12px;
 }
 
 .forms {
-    display: $display;
-    width: $width-footer-f;
-    height: $height-footer;
-    margin-left: $padding-top-mesedg;
+    display: $dis;
+    width: 570px;
+    height: 86px;
+    margin-left: 94px;
 }
 
 .forms-mails {
-    display: $display-block;
+    display: $d-bl;
 }
 
 .forms-input {
-    width: $width-input;
-    height: $height-h;
-    padding: $padding-f;
-    border: $border-footer;
-    box-sizing: $box-sizing;
+    width: 358px;
+    height: 50px;
+    padding: 15px 16px;
+    border: $border-foot;
+    box-sizing: $box;
     box-shadow: $box-shadow-footer;
-    border-radius: $border-radius-4;
-    background-color:  $background-color-footer;
+    border-radius: $br-4;
+    background-color: $background-color-footer;
 }
 
 .mails {
-    margin-bottom: $font-size-modalka;
-    padding-left: $margin;
+    margin-bottom: 20px;
+    padding-left: 0;
 }
 
 .submit {
-    margin-top: $margin-top-footer-f;
+    margin-top: 35px;
+
 }
 
 .buttons {
-    display: $display-fl;
-    border-radius: $border-radius-4;
-    padding: $padding-footer;
-    max-width: $min-width;
-    height: $height-h;
-    margin-left: $padding-top-comanda;
+    display: inline-flex;
+    border-radius: 4px;
+    padding: 10px 32px;
+    max-width: 200px;
+    height: 50px;
+    margin-left: 12px;
 
     color: $primary-white-color;
     border: $border;
     background-color: $accent-color;
-    text-align: $aligin-items;
-    align-items: $aligin-items;
-    cursor: $cursor;
+    text-align: $cen;
+    align-items: $cen;
+    cursor: pointer;
 }
 
 .icon-send {
     fill: $primary-white-color;
-    margin-left: $margin-bottom-mesedg;
+    margin-left: 10px;
 }
 
 .avtor {
-    display: $display-block;
+    display: $d-bl;
     width: 310px;
-    padding-top: $width-modalka;
-    padding-bottom: $padding-bottom-f;
-    margin: $margin-left;
+    padding-top: 18px;
+    padding-bottom: 21px;
+    margin: auto;
     
     
-    color: $color-f;
-    font-size: $font-size-footer;
-    line-height: $line-height-footer;
-    text-align: $aligin-items;
+    color: $color-foot;
+    font-size: 12px;
+    line-height: 2;
+    text-align: $cen;
 }

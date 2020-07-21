@@ -407,7 +407,7 @@ a:hover .icon {
 
 .form-textarea:focus-within .comment {
     border-color: var(--accent-color);
-    outline:none;
+    outline: none;
 }
 
 .textarea {
@@ -464,11 +464,13 @@ a:hover .icon {
     color: var(--accent-color);
     text-decoration-line: underline;
 }
+
 .form-button {
     margin-left: 125px;
     margin-top: 30px;
     cursor: pointer;
 }
+
 /*Модалка*/
 
 .container-mesedg {
@@ -791,7 +793,7 @@ a:hover .icon {
     box-sizing: border-box;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    background-color:  #2F303A;
+    background-color: #2F303A;
 }
 
 .mails {

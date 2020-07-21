@@ -1,69 +1,71 @@
 .container-comanda {
-    margin-left: $margin-left;
-    margin-right: $margin-left;
-    text-align: $text-align;
-    padding-top: $padding-top-mesedg;
-    padding-bottom: $padding-top-mesedg;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: $cen;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .comanda {
-    width: $width-comanda;
+    width: 264px;
 }
 
 .fotos {
-    width: $width-mesedg;
-    margin-right: $margin-left-item;
-    margin-left: $margin;
-    box-shadow: $box-shadow;
+    width: calc((100% - 30px * 3) / 4);
+    margin-right: 30px;
+    margin-left: 0;
+    box-shadow: $box-shadow-m;
 }
 
 .fotos:last-child {
-    margin-right: $margin;
+    margin-right: 0;
 }
 
 .foto-name {
-    width: $width-mesedg-c;
-    height: $height-comanda;
-    margin-bottom: $margin-left-item;
+    width: 270px;
+    height: 260px;
+    margin-bottom: 30px;
 }
 
 .section-name {
-    margin-bottom: $margin-bottom-mesedg;
-    margin-right: $margin-left;
-    margin-left: $margin-left;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+
+
     color: $title-text-color;
-    font-weight: $font-weight-medium;
-    font-size: $line-height-label;
-    line-height: $line-height-logo;
-    text-align: $text-align;
+    font-weight: $medium;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: $cen;
 }
 
 .section-tex {
-    margin-bottom: $line-height-label;
-    margin-left: $margin-left;
-    margin-right: $margin-left;
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
 
     color: $primary-text-color;
-    font-weight: $font-weight-normal;
-    font-size: $font-size-contact;
-    line-height: $line-height-mesedg;
-    text-align: $text-align;
+    font-weight: $normal;
+    font-size: 14px;
+    line-height: 1.71;
+    text-align: $cen;
 }
 
 .list-name {
-    width: $width-c;
-    margin-bottom: $line-height-mod;
-    margin-left: $top-contact;
+    width: 206px;
+    margin-bottom: 24px;
+    margin-left: 32px;
 }
 
 .social-link {
-    display: $display-fl;
-    width: $font-size-hero;
-    height: $font-size-hero;
-    border-radius: $border-radius-close;
+    display: inline-flex;
+    width: 44px;
+    height: 44px;
+    border-radius: $br-close;
     background-color: $primary-white-color;
-    align-items: $aligin-items;
-    padding-top: $padding-top-comanda;
+    align-items: $cen;
+    padding-top: 12px;
     transition: background-color $timing $timing-function;
 }
 

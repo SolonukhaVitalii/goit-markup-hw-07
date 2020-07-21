@@ -1,5 +1,5 @@
 .flex-container {
-    display: flex;
+    display: $dis;
     flex-wrap: wrap;
     margin: -15px;
 }
@@ -8,52 +8,52 @@
     width: 370px;
     height: 404px;
     margin: 15px;
-    border: 1px solid #EEEEEE;
+    border: $border-port;
     overflow: hidden;
-    position: relative;
+    position: $pos-r;
 }
 
 .product-foto {
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: $color-foot;
     overflow: hidden;
-    position: relative;
+    position: $pos-r;
 }
 
 .product-foto::before {
     display: inline-block;
     content: "";
-    position: absolute;
+    position: $pos-a;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(33, 150, 243, 0.9);
-    transform: translateY(100%);
-    transition: transform 250ms var(--timing-function);
+    background-color: $background-color-port;
+    transform: $transform-porfolio;
+    transition: transform $timing $timing-function;
     opacity: 0;
 }
 
 .flex-element:hover .product-foto::before {
-    transform: translateY(0);
+    transform: $transform-port;
     opacity: 1;
 }
 
 .product-overlay {
-    position: absolute;
+    position: $pos-a;
     padding-top: 63px;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
-    transform: translateY(100%);
-    transition: transform 250ms var(--timing-function);
+    transform: $transform-porfolio;
+    transition: transform $timing $timing-function;
     opacity: 0;
 }
 
 .flex-element:hover .product-overlay {
-    transform: translateY(0);
+    transform: $transform-port;
     opacity: 1;
-    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
+    box-shadow: $box-shadow-p;
 }
 
 .work-title {
@@ -63,11 +63,11 @@
     margin-right: 24px;
     margin-left: 24px;
 
-    color: var(--title-text-color);
-    font-weight: 700;
+    color: $title-text-color;
+    font-weight: $bold;
     font-size: 18px;
     line-height: 2.0;
-    letter-spacing: 0.06em;
+    letter-spacing: $ls-6;
     text-align: left;
 }
 
@@ -78,8 +78,8 @@
     margin-right: 24px;
     margin-left: 24px;
 
-    color: var(--primary-text-color);
-    font-weight: 400;
+    color: $primary-text-color;
+    font-weight: $normal;
     font-size: 16px;
     line-height: 1.187;
     text-align: left;
@@ -92,8 +92,8 @@
     margin-right: 24px;
     margin-left: 24px;
 
-    color: var(--primary-white-color);
-    font-weight: 400;
+    color: $primary-white-color;
+    font-weight: $normal;
     font-size: 18px;
     line-height: 1.56;
     text-align: left;

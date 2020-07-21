@@ -1,48 +1,47 @@
-
 .backdrop {
-    position: $position-f;
-    width: $width-m;
-    height: $height-m;
-    left: $left-contact;
-    top: $left-contact;
-    background: $background-m;
+    position: fixed;
+    width: 1800px;
+    height: 1024px;
+    left: 0;
+    top: 0;
+    background: $bg-backdrop;
 }
 
 .is-hidden {
-    visibility: $visibility;
-    opacity: $opacity-a;
-    pointer-events: $pointer-events;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: visible;
 }
 
 .form {
-    width: $width-form;
-    height: $height-form;
-    padding: $padding-form;
-    top: $top-form;
-    left: $left-form;
+    width: 528px;
+    height: 581px;
+    padding: 40px;
+    top: 222px;
+    left: 690px;
     background-color: $primary-white-color;
-    border-radius: $border-radius-4;
-    box-shadow: $box-shadow;
-    position: $position-r;
+    border-radius: $br-4;
+    box-shadow: $box-shadow-m;
+    position: $pos-r;
 }
 
 .close {
-    position: $position-a;
-    width: $margin-left;
-    height: $margin-left;
-    top: $top-close;
-    right: $top-close;
+    position: $pos-a;
+    width: 30px;
+    height: 30px;
+    top: 8px;
+    right: 8px;
     background-color: $primary-white-color;
-    border-radius: $border-radius-close;
+    border-radius: $br-close;
     border: $border-close;
     transform: $transform;
-    cursor: $cursor;
+    cursor: pointer;
 }
 
 .icon-close {
-    position: $position-a;
-    top: $padding-top;
-    left: $margin-right-tel;
+    position: $pos-a;
+    top: 0;
+    left: 5px;
     transform: $transform-close;
 }
 
@@ -51,44 +50,44 @@
 }
 
 .form-title {
-    margin-bottom: $margin-left;
-    font-style: $font-style;
-    font-weight: $font-weight-bold;
-    font-size: $font-size-modalka;
-    line-height: $line-height-form;
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: $bold;
+    font-size: 20px;
+    line-height: 23px;
     color: $title-text-color;
 }
 
 .form-field {
-    margin-bottom: $margin-bottom-modalka;
-    position: $position-r;
+    margin-bottom: 28px;
+    position: $pos-r;
 }
 
 .form-label {
-    position: $position-a;
-    top: $top-label;
-    left: $left-label;
-    font-size: $font-size-contact;
-    line-height: $line-height-label;
-    letter-spacing: $letter-spacing-modalka;
+    position: $pos-a;
+    top: 50%;
+    left: 42px;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: $ls-1;
     color: $primary-text-color;
     transform: $transform-modalka;
 }
 
 .form-input {
-    width: $width-contact;
-    padding: $padding-modalka;
+    width: 100%;
+    padding: 12px 18px;
     border: $border-close;
-    box-sizing: $box-sizing;
-    border-radius: $border-radius-4;
-    cursor: $cursor;
+    box-sizing: $box;
+    border-radius: $br-4;
+    cursor: pointer;
 }
 
 .form-input:focus + .form-label,
 .form-input:not(:placeholder-shown) + .form-label {
     color: $accent-color;
     transform: $transform-mod;
-    margin-left: $margin-left-modalka;
+    margin-left: -30px;
     transition-duration: $timing;
 }
 
@@ -97,17 +96,17 @@
 }
 
 .form-label:focus-within .form-input {
-    outline: $list-style;
+    outline: none;
     border-color: $accent-color;
 }
 
 .form-icon {
-    position: $position-a;
-    top: $top-label;
-    left: $left-modalka;
-    display: $display-in;
-    width: $width-modalka;
-    height: $width-modalka;
+    position: $pos-a;
+    top: 50%;
+    left: 16px;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
     transform: $transform-modalka;
     background-color: $primary-white-color;
 }
@@ -117,38 +116,38 @@
 }
 
 .field-textarea {
-    position: $position-r;
-    margin-bottom: $font-size-modalka;
+    position: $pos-r;
+    margin-bottom: 20px;
 }
 
 .form-textarea {
-    position: $position-a;
-    top: $top-modalka;
-    left: $line-height-label;
-    font-size: $font-size-contact;
-    line-height: $line-height-label;
-    letter-spacing: $letter-spacing-modalka;
+    position: $pos-a;
+    top: 20%;
+    left: 16px;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: $ls-1;
     color: $primary-text-color;
     transform: $transform-modalka;
-    transition: transform $timing $timing-function;
+    transition: transform $timing, $timing-function;
 }
 
 .comment {
-    width: $width-modalka;
-    height: $height-modalka;
-    padding: $padding-m;
+    width: 448px;
+    height: 120px;
+    padding: 12px 16px;
     border: $border-close;
-    box-sizing: $box-sizing;
-    border-radius: $border-radius-4;
-    cursor: $cursor;
+    box-sizing: $box;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 .comment:focus + .form-textarea,
 .comment:not(:placeholder-shown) + .form-textarea {
-    color: $accent-color;
+    color: var(--accent-color);
     transform: $transform-m;
-    margin-left: $margin;
-    transition-duration: $timing ;
+    margin-left: 0;
+    transition-duration: $timing;
 }
 
 .comment:placeholder-shown {
@@ -157,65 +156,66 @@
 
 .form-textarea:focus-within .comment {
     border-color: $accent-color;
-    outline: $accent-color;
+    outline: none;
 }
 
 .textarea {
-    resize: $accent-color;
+    resize: none;
 }
 
 .label {
-    display: $display;
+    display: $dis;
 }
 
 .checkbox-box {
-    position: $position-r;
+    position: $pos-r;
 }
 
 .checkbox-text {
-    font-size: $font-size-contact;
-    line-height: $line-height-mod;
-    margin-left: $top-close;
-    margin-left: $margin-bottom-logo;
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 8px;
+    margin-left: 25px;
 }
 
 .checkbox {
-    position: $position-a;
-    width: $width-m;
-    height: $height-m;
-    margin: $margin-m;
-    border: $margin;
-    padding: $margin;
-    clip: $clip;
-    overflow: $visibility;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0 );
+    overflow: hidden;
 }
 
 .icon-box {
-    position: $position-a;
-    display: $display-in;
-    width: $line-height-label;
-    height: $padding-left-container;
-    top: $margin-right-tel;
-    left: $margin;
-    border: $border-radius-2 solid $link-color;
-    border-radius: $border-radius-2;
-    align-items: $aligin-items;
+    position: $pos-a;
+    display: inline-block;
+    width: 16px;
+    height: 15px;
+    top: 5px;
+    left: 0;
+    border: $border-m;
+    border-radius: $br-2;
+    align-items: $cen;
 }
 
 .checkbox:checked + .icon-box {
     border-color: $accent-color;
     background-color: $accent-color;
     background-image: url(../images/iconcheck.svg);
-    background-size: $background-size-m;
-    background-origin: $box-sizing;
+    background-size: contain;
+    background-origin: $box;
 }
 
 .doc {
     color: $accent-color;
-    text-decoration-line: $text-decoration-line;
+    text-decoration-line: underline;
 }
+
 .form-button {
-    margin-left: $margin-left-m;
-    margin-top: $margin-left;
-    cursor: $cursor;
+    margin-left: 125px;
+    margin-top: 30px;
+    cursor: pointer;
 }

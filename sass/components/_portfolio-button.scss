@@ -1,7 +1,7 @@
 .container-work {
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
+    text-align: $cen;
     padding-top: 93px;
     padding-bottom: 94px;
 }
@@ -26,18 +26,18 @@
     min-width: 128px;
     height: 38px;
 
-    color: var(--title-text-color);
-    font-weight: 500;
+    color: $title-text-color;
+    font-weight: $medium;
     font-size: 16px;
     line-height: 1.62;
-    text-align: center;
+    text-align: $cen;
     border: none;
     cursor: pointer;
-    transition: background-color var(--timing), var(--timing-function), color var(--timing), var(--timing-function);
+    transition: background-color $timing $timing-function color $timing $timing-function;
 }
 
 .work-button:hover,
 .work-button:focus {
-    color: var(--primary-white-color);
-    background-color: var(--accent-color);
+    color: $primary-white-color;
+    background-color: $accent-color;
 }
